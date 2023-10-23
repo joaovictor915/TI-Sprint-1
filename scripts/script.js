@@ -47,11 +47,11 @@ const filterOptions = [
 ]
 // Carrega o array de filmes de exemplo vindo do arquivo .json
 
-async function fetchData() {
-  const response = await fetch('films.json');
-  const data = await response.json();
-  return data;
-}
+// async function fetchData() {
+//   const response = await fetch('films.json');
+//   const data = await response.json();
+//   return data;
+// }
 
 let films;
 
